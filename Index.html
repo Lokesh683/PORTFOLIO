@@ -5,52 +5,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
   
-<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header class="header">
         <a href="#" class="logo">portfolio</a>
-        <i class='bxr  bx-menu' id=""menu-icon></i> 
+        <i class="bx bx-menu" id="menu-icon"></i>
 
         <nav class="navbar">
-            <a href="#Home">Home</a>
-            <a href="#about">about</a>
-            <a href="#Services">Services</a>
-            <a href="#portfolio">portfolio</a>
-            <a href="#contact">contact</a>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
-       <section class="home" id="home">
+
+    <section class="home" id="home">
         <div class="home-content">
             <h3>Hello, It's Me</h3>
             <h1>Lokesh Varma</h1>
-            <h3>And I'm a <span>Fronted Developer</span></h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adisicing elits. Tempore aliquam, modi aspernatur placeat
-                architecture amet laudantium id.
-            </p>
+            <h3>And I'm a <span>Frontend Developer</span></h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore aliquam, modi aspernatur placeat.</p>
             <div class="social-media">
-                <a href="#"><i class='bx bxl-facebook'></i></a>
-                <a href="#"><i class='bx bxl-twitter' ></i></a>
-                <a href="#"><i class='bx bxl-instagram' ></i></a>
-                <a href="#"><i class='bx bxl-linkedin' ></i></a>
-                <a href="#"><i class='bx bxl-github' ></i></a>
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+                <a href="#"><i class="bx bxl-instagram"></i></a>
+                <a href="#"><i class="bx bxl-linkedin"></i></a>
+                <a href="#"><i class="bx bxl-github"></i></a>
             </div>
             <a href="#" class="btn">Download CV</a>
         </div>
 
         <div class="home-img">
-            <img src="image.png" alt="MY photo">
+            <img src="image.jpeg" alt="MY photo">
         </div>
-       </section>
-       <section class="about" id="about">
-        <div class="about-img">
-            <img src="image.png" alt="">
-            <img src="image.png" alt="">
-        </div>
-       </section>
+    </section>
 
-    <script sr="script.js"></script>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="image.jpeg" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="#" class="btn"> Read More</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class="bx bx-code-alt"></i>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class="bx bx-brush"></i>
+                <h3>Graphic Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class="bx bx-line-chart"></i>
+                <h3>Digital Marketing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="web developer.avif" alt="">
+                <div class="pertfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#"><i class='bxr  bx-link'    ></i> </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
